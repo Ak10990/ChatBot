@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FreedomVision</string>
+
+    <string name="placeholder_chat">No chat yet</string>
+    <string name="enter_chat_hint">Enter your query here</string>
+
+</resources>

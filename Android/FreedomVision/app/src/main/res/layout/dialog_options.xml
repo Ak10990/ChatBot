@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical">-->
+
+<!-- <TextView
+     android:id="@+id/que_heading"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:padding="8dp"
+     android:text="Heading"
+     android:textAllCaps="true"
+     android:textColor="@color/colorPrimaryDark"
+     android:textSize="@dimen/text_data_heading_size"
+     android:textStyle="bold" />-->
+
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_gridview"
+    style="@style/FullScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/close_btn"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp" />
+
+    <!-- <Button
+         android:id="@+id/close_btn"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginBottom="16dp"
+         android:layout_marginRight="16dp"
+         android:text="CLOSE"
+         android:textAllCaps="true"
+         android:textColor="@color/colorAccent"
+         android:textSize="@dimen/btn_data_size" />
+
+ </RelativeLayout>-->
